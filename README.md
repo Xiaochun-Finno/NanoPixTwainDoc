@@ -55,19 +55,19 @@
 ### 1. XDR
 Close After Transfer不要勾选！！！
 
-![Setting Image](./resource/host_app/XDR.png)
+![Setting Image](./host_app/XDR.png)
 
 ### 2. OpenDental
 Show Twain UI 要勾选！！！
 
-![Setting Image](./resource/host_app/OpenDental.png)
+![Setting Image](./host_app/OpenDental.png)
 
 ### 3. Sidexis
 Automatic document feed 要勾选！！！
 
-![Setting Image](./resource/host_app/Sidexis.png)
+![Setting Image](./host_app/Sidexis.png)
 
 ### 4. Archy
 测试发现 Run In-Process 需要勾选，要不然有些时候会出现曝光了之后不能出图的现象
 
-![Setting Image](./resource/host_app/Archy.png)
+![Setting Image](./host_app/Archy.png)
