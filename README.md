@@ -75,5 +75,5 @@ Automatic document feed 要勾选！！！
 ### 5. xrayvision
 b模式下想要连续拍摄，需在上位软件点击左上的按钮拍序列，单张关闭源，伪ADF
 
-![Setting Image]()
+![Setting Image](./host_app/xv-setting.png)
 
