@@ -71,3 +71,9 @@ Automatic document feed 要勾选！！！
 测试发现 Run In-Process 需要勾选，要不然有些时候会出现曝光了之后不能出图的现象
 
 ![Setting Image](./host_app/Archy.png)
+
+### 5. xrayvision
+b模式下想要连续拍摄，需在上位软件点击左上的按钮拍序列，单张关闭源，伪ADF
+
+![Setting Image]()
+
