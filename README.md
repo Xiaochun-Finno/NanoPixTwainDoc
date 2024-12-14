@@ -37,13 +37,16 @@
 |15| Dentrix Ascend        |     B      |    1.4a   |              | 单张传输完成后，关闭源，伪连续ADF     |  |
 |16| Eaglesoft             |     B      |    1.4a   |              | 单张传输完成后，关闭源，伪连续ADF     |  1.4e关闭源后程序崩溃 |
 |17| LynxVision            |     C      |           |              |                | |
-|18| Sota                  |     B      |           |              |单张传输完成后，关闭源，伪连续ADF      | |
+|18| Sota                  |     B      |           |              |单张传输完成后，关闭源，伪连续ADF，ClioSoft      | |
 |19| SOPRO Imaging         |     B      |           |              |单张传输完成后，不关闭源              | |
 |20| Progeny               |     B      |           |              |单张关闭源，不支持“伪ADF”，仅支持批量传输  |  |
 |21| iDentalSoft           |     B      |   1.4e    |              |单张传输完成后，关闭源，伪连续ADF         |  |
 |22| Dentimax              |     B      |   1.4a    |              |                                       |  |
 |23| TDO                   |            |   1.4e    |              |                                       |  |
 |24| Dentally Vision(UK)   |     D      |   1.4a    |              |可连续采集                              |  |
+|26| MediaDent Bridge      |     D      |           |              |                              |  |
+|27| CADI                  |     D      |   1.4a    |              |需要在Twain设置Native传输机制,a和e版本内部测试都ok |  |
+
 ### 通用软件
 |序号| 上位软件             |   传输模型   |
 |--|-----------------------|--------------|
