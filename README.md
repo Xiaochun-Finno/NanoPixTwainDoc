@@ -26,7 +26,7 @@
 |4 | VixWin                |     C      |   1.4a    |              | | 不可打开两个Twain UI，否则主程序会卡死|
 |5 | OpenDental            |     B      |   1.4a    |              |单张传输完成后，不关闭源| 1.4e正常关闭源，事件查看器异常0xc0000374|
 |6 | EzDent                |     D      |   1.4e    |              |1.4a只能支持英文                | |
-|7 | Archy                 |     B      |   1.4a/e  |              |单张传输完成后，不关闭源                | |
+|7 | Archy                 |     B      |   1.4a/e  |              |单张传输完成后，不关闭源                |伪连续ADF下，偶发崩溃 |
 |8 | TigerView             |     B      |   1.4a    |              |单张传输完成后，不关闭源                | |
 |9 | Curve                 |     B      |   1.4a    |              |单张传输完成后，关闭源，伪连续ADF        | 1.4e会使得Curve页面最小化|
 |10| XDR                   |     B      |   1.4a    |              |可设置单张传输完成后，不关闭源           | 1.4e打开Twain界面，会退出全屏，缩小分辨率|
@@ -39,13 +39,15 @@
 |17| LynxVision            |     C      |           |              |                | |
 |18| Sota                  |     B      |           |              |单张传输完成后，关闭源，伪连续ADF，ClioSoft      | |
 |19| SOPRO Imaging         |     B      |           |              |单张传输完成后，不关闭源              | |
-|20| Progeny               |     B      |           |              |单张关闭源，不支持“伪ADF”，仅支持批量传输  |  |
+|20| Progeny               |     B      |           |              |单张关闭源，也不支持“伪ADF”，仅支持批量传输  |  |
 |21| iDentalSoft           |     B      |   1.4e    |              |单张传输完成后，关闭源，伪连续ADF         |  |
 |22| Dentimax              |     B      |   1.4a    |              |                                       |  |
 |23| TDO                   |            |   1.4e    |              |                                       |  |
 |24| Dentally Vision(UK)   |     D      |   1.4a    |              |可连续采集                              |  |
 |26| MediaDent Bridge      |     D      |           |              |                              |  |
 |27| CADI                  |     D      |   1.4a    |              |需要在Twain设置Native传输机制,a和e版本内部测试都ok |  |
+|28| Handy Dentist         |     C      |           |              |  |  |
+|29| e看牙                  |     B     |           |               |仅支持单张传输|  |
 
 ### 通用软件
 |序号| 上位软件             |   传输模型   |
