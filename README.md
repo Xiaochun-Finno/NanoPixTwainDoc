@@ -21,31 +21,31 @@
 |序号| 上位软件             |   传输模型 |   版本     |   竞品       |  备注  |    问题  |
 |--|-----------------------|------------|-----------|--------------|--------|---------|
 |1 | CS Imaging            |     D      |   1.5a    | 仅支持单张传输 | 单张传输完成后，关闭源，1.4a可批量上传 | 图片不能进layout格子 |           
-|2 | Apteryx XrayVision    |     B      |   1.4a    |              | 单张传输完成后，关闭源，伪连续ADF | |
-|3 | Dexis                 |     D      |   1.4a    |              | B模式下，单张传输完成后，关闭源，伪连续ADF | Twain模块需要授权  |
-|4 | VixWin                |     C      |   1.4a    |              | | 不可打开两个Twain UI，否则主程序会卡死|
-|5 | OpenDental            |     B      |   1.4a    |              |单张传输完成后，不关闭源| 1.4e正常关闭源，事件查看器异常0xc0000374|
-|6 | EzDent                |     D      |   1.4e    |              |1.4a只能支持英文                | |
-|7 | Archy                 |     B      |   1.4e    |              |单张传输完成后，不关闭源                |a版本勾选in-process，内存耗竭后与Archy一起闪退|
-|8 | TigerView             |     B      |   1.4a    |              |单张传输完成后，不关闭源                | |
-|9 | Curve                 |     B      |   1.4a    |              |单张传输完成后，关闭源，伪连续ADF        | 1.4e会使得Curve页面最小化|
-|10| XDR                   |     B      |   1.4a    |              |可设置单张传输完成后，不关闭源           | 1.4e打开Twain界面，会退出全屏，缩小分辨率|
+|2 | Apteryx XrayVision    |     B      |   1.5a    |              | 单张传输完成后，关闭源，伪连续ADF | |
+|3 | Dexis                 |     D      |   1.5a    |              | B模式下，单张传输完成后，关闭源，伪连续ADF | Twain模块需要授权  |
+|4 | VixWin                |     C      |   1.5a    |              | | 不可打开两个Twain UI，否则主程序会卡死|
+|5 | OpenDental            |     B      |   1.5a    |              |单张传输完成后，不关闭源| 1.4e正常关闭源，事件查看器异常0xc0000374|
+|6 | EzDent                |     D      |   1.5e    |              |1.4a只能支持英文                | |
+|7 | Archy                 |     B      |   1.5e    |              |单张传输完成后，不关闭源                |a版本勾选in-process，内存耗竭后与Archy一起闪退|
+|8 | TigerView             |     B      |   1.5a    |              |单张传输完成后，不关闭源                | |
+|9 | Curve                 |     B      |   1.5a    |              |单张传输完成后，关闭源，伪连续ADF        | 1.4e会使得Curve页面最小化|
+|10| XDR                   |     B      |   1.5a    |              |可设置单张传输完成后，不关闭源           |    |
 |11| Core Practice         |     B      |           |              |单张传输完成后，关闭源，伪连续ADF？      |    |
-|12| Oryx                  |     D      |   1.4e    |              |必须使用1.4e，上位软件需要设置exe文件路径|    |
-|13| DentiView             |     B      |   1.4a    |              | 单张传输完成后，不关闭源    |    |
+|12| Oryx                  |     D      |   1.5e    |              |必须使用1.5e，上位软件需要设置exe文件路径|    |
+|13| DentiView             |     B      |   1.5a    |              | 单张传输完成后，不关闭源    |    |
 |14| Sidexis               |     D      |           |              |                |   不能进模板  |
-|15| Dentrix Ascend        |     B      |    1.4a   |              | 单张传输完成后，关闭源，伪连续ADF     |  |
-|16| Eaglesoft             |     B      |    1.4a   |              | 单张传输完成后，关闭源，伪连续ADF     |  1.4e关闭源后程序崩溃 |
+|15| Dentrix Ascend        |     B      |    1.5a   |              | 单张传输完成后，关闭源，伪连续ADF     |  |
+|16| Eaglesoft             |     B      |    1.5a   |              | 单张传输完成后，关闭源，伪连续ADF     |  1.4e关闭源后程序崩溃 |
 |17| LynxVision            |     C      |           |              |                | |
 |18| Sota                  |     B      |           |              |单张传输完成后，关闭源，伪连续ADF，ClioSoft      | |
 |19| SOPRO Imaging         |     B      |           |              |单张传输完成后，不关闭源              | |
 |20| Progeny               |     B      |           |              |单张关闭源，也不支持“伪ADF”，仅支持批量传输  |  |
-|21| iDentalSoft           |     B      |   1.4e    |              |单张传输完成后，关闭源，伪连续ADF         |  |
-|22| Dentimax              |     B      |   1.4a    |              |                                       |  |
-|23| TDO                   |            |   1.4e    |              |                                       |  |
-|24| Dentally Vision(UK)   |     D      |   1.4a    |              |可连续采集                              |  |
+|21| iDentalSoft           |     B      |   1.5e    |              |单张传输完成后，关闭源，伪连续ADF         |  |
+|22| Dentimax              |     B      |   1.5a    |              |                                       |  |
+|23| TDO                   |            |   1.5e    |              |                                       |  |
+|24| Dentally Vision(UK)   |     D      |   1.5a    |              |可连续采集                              |  |
 |26| MediaDent Bridge      |     D      |           |              |                              |  |
-|27| CADI                  |     D      |   1.4a    |              |需要在Twain设置Native传输机制,a和e版本内部测试都ok |  |
+|27| CADI                  |     D      |   1.5a    |              |需要在Twain设置Native传输机制,a和e版本内部测试都ok |  |
 |28| Handy Dentist         |     C      |           |              |  |  |
 |29| e看牙                  |     B     |           |               |仅支持单张传输|  |
 
