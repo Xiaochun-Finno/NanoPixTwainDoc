@@ -47,7 +47,9 @@
 |26| MediaDent Bridge      |     D      |           |              |                              |  |
 |27| CADI                  |     D      |   1.5a    |              |需要在Twain设置Native传输机制,a和e版本内部测试都ok |  |
 |28| Handy Dentist         |     C      |           |              |  |  |
-|29| e看牙                  |     B     |           |               |仅支持单张传输，上位机软件限制|  |
+|29| SFD                   |     C      |   1.6a    |              |a和e版本内测ok|  |
+|30| CliniView             |     B      |           |              |通过XV调用Twain|  |
+|31| e看牙                 |     B     |           |               |    | 仅支持单张传输，上位机软件限制 |
 
 ### 通用软件
 |序号| 上位软件             |   传输模型   |
