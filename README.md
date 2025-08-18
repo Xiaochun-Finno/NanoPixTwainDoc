@@ -25,7 +25,7 @@
 |3 | Dexis                 |     D      |   1.5a    |              | B模式下，单张传输完成后，关闭源，伪连续ADF | Twain模块需要授权  |
 |4 | VixWin                |     C      |   1.5a    |              | | 不可打开两个Twain UI，否则主程序会卡死|
 |5 | OpenDental            |     B      |   1.5a    |              |单张传输完成后，不关闭源| 1.4e正常关闭源，事件查看器异常0xc0000374，1.5e已解决|
-|6 | EzDent                |     D      |   1.5e    |              |1.5a只能支持英文                | |
+|6 | EzDent                |     D      |   1.5e    |              |1.5a只能支持英文                |1.6e不能弹出Twain窗口，1.6a可用 |
 |7 | Archy                 |     B      |   1.5e    |              |单张传输完成后，不关闭源                |a版本勾选in-process，内存耗竭后与Archy一起闪退|
 |8 | TigerView             |     B      |   1.5a    |              |单张传输完成后，不关闭源                | |
 |9 | Curve                 |     B      |   1.5a    |              |单张传输完成后，关闭源，伪连续ADF        | 1.4e会使得Curve页面最小化，1.5e已解决|
@@ -68,7 +68,7 @@
 ## 上位软件需要做的设置
 
 ### 1. XDR
-Close After Transfer 要勾选！！！，伪连拍，不然连续采集图像方向保持不变
+Close After Transfer 要勾选！！！设置到伪连拍，不然连续采集图像方向保持不变
 
 ![Setting Image](./host_app/XDR.png)
 
