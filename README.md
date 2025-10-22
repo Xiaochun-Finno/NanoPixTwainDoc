@@ -23,7 +23,7 @@
 |1 | CS Imaging            |     D      |   1.5a    | 仅支持单张传输 |    | 图片不能进layout格子，上位机软件限制 |           
 |2 | Apteryx XrayVision    |     B      |   1.5a    |              | 单张传输完成后，关闭源，伪连续ADF | |
 |3 | Dexis                 |     D      |   1.5a    |              | B模式下，单张传输完成后，关闭源，伪连续ADF | Twain模块需要授权  |
-|4 | VixWin                |     C      |   1.5a    |              | | 不可打开两个Twain UI，否则主程序会卡死|
+|4 | VixWin                |     C      |   1.5a    |              | | 不可打开两个Twain UI，否则主程序会卡死，上位机软件问题|
 |5 | OpenDental            |     B      |   1.5a    |              |单张传输完成后，不关闭源| 1.4e正常关闭源，事件查看器异常0xc0000374，1.5e已解决|
 |6 | EzDent                |     D      |   1.5e    |              |1.5a只能支持英文                |1.6e不能弹出Twain窗口，1.6a可用 |
 |7 | Archy                 |     B      |   1.5e    |              |单张传输完成后，不关闭源                |a版本勾选in-process，内存耗竭后与Archy一起闪退|
@@ -35,7 +35,7 @@
 |13| DentiView             |     B      |   1.5a    |              | 单张传输完成后，不关闭源    |    |
 |14| Sidexis               |     D      |           |              |                |   不能进模板，上位机软件限制  |
 |15| Dentrix Ascend        |     B      |    1.5a   |              | 单张传输完成后，关闭源，伪连续ADF     |  |
-|16| Eaglesoft             |     B      |    1.5a   |              | 单张传输完成后，关闭源，伪连续ADF     |  1.4e关闭源后程序崩溃，1.5e待测试 |
+|16| Eaglesoft             |     B      |    1.5a   |              | 单张传输完成后，关闭源，伪连续ADF     |  1.4e关闭源后程序崩溃，1.6e已解决 |
 |17| LynxVision            |     C      |           |              |                | |
 |18| Sota                  |     B      |           |              |单张传输完成后，关闭源，伪连续ADF，ClioSoft      | |
 |19| SOPRO Imaging         |     B      |           |              |单张传输完成后，不关闭源              | |
@@ -49,7 +49,8 @@
 |28| Handy Dentist         |     C      |           |              |  |  |
 |29| SFD                   |     C      |   1.6a    |              |a和e版本内测ok|  |
 |30| CliniView             |     B      |           |              |通过XV调用Twain|  |
-|31| e看牙                 |     B      |           |               |    | 仅支持单张传输，上位机软件限制 |
+|31| e看牙                 |     B      |           |              |    | 仅支持单张传输，上位机软件限制 |
+|32| QuickVision           |     B      |  1.6e     |              |单张传输完成后，关闭源，伪连续ADF，OWANDY (Julie)  |  |
 
 ### 通用软件
 |序号| 上位软件             |   传输模型   |
